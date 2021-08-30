@@ -1,0 +1,54 @@
+.donation {
+    background-color: $color-light-l;
+    color: $color-dark-l;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__title {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    &__subtitle {
+        margin: 1.25rem 0;
+        @include font ('Georgia', 0.94rem);
+        line-height: 106%;
+    }
+
+    &__content {
+        width: 23.75rem;
+        margin-left: 1.875rem;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 15px;
+        margin: 1.25rem 0;
+        width: 21.8rem;
+        background-color: $color-primary;
+        border-radius: 9px;
+        @include font ('Georgia', 1.25rem);
+        line-height: 106%;
+
+        &__img {
+            margin-right: 15px;
+        }
+    }
+
+    &__account {
+        width: 100%;
+        letter-spacing: 2.2px;
+    }
+
+    &__info {
+        @include font ('Arial', 0.75rem);
+        color: $color-dark-m;
+        line-height: 1.13rem;
+    }
+}

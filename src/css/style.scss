@@ -1,0 +1,24 @@
+// ABSTRACT
+@import "./sass/abstracts/variables";
+@import "./sass/abstracts/mixins";
+
+// BASE
+@import "./sass/base/base";
+@import "./sass/base/buttons";
+
+// LAYOUT
+@import "./sass/layout/header";
+@import "./sass/layout/start";
+@import "./sass/layout/main";
+@import "./sass/layout/section";
+@import "./sass/layout/about";
+@import "./sass/layout/pets";
+@import "./sass/layout/carousel";
+@import "./sass/layout/help";
+@import "./sass/layout/donation";
+@import "./sass/layout/footer";
+
+// COMPONENTS
+@import "./sass/components/logo";
+@import "./sass/components/nav";
+@import "./sass/components/card";

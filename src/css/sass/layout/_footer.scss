@@ -1,0 +1,46 @@
+.footer {
+    overflow: hidden;
+    background: url(../img/footer-gradient-background.png) center/cover no-repeat;
+
+    &__container {
+        padding: 2.5rem 2.5rem 0;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    // &__contacts {
+    //     width: 25%;
+    // }
+
+    // &__address {
+    //     width: 25%;
+    // }
+
+    // &__img {
+    //     width: 25%;
+    // }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2.5rem;
+
+        &__link {
+            margin-left: 1.25rem;
+            @include font ('Georgia', 1.25rem);
+            color: $color-primary;
+        }
+    }
+}
+
+.footer>* {
+    flex-basis: 100%;
+}
+
+.title {
+    margin: 1rem 0 2.5rem;
+    @include font ('Georgia', 2.19rem);
+    color: $color-light-xl;
+    line-height: 2.84rem;
+}

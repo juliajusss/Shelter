@@ -1,0 +1,27 @@
+.start {
+  display: flex;
+  justify-content: space-between;
+
+  &__content {
+    flex-basis: 38.3%;
+  }
+
+  &__heading {
+    width: 19.4rem;
+    @include font('Georgia', 2.75rem);
+    color: $color-light-xl;
+  }
+
+  &__subheading {
+    margin-bottom: 40px;
+    width: 28.4rem;
+    @include font('Arial', 0.9rem);
+    color: $color-dark-s;
+    line-height: 160%;
+  }
+
+  &__hero {
+    flex-basis: 58.2%;
+
+  }
+}

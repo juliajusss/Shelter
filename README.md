@@ -1,1 +1,1 @@
-# Shelter
+# webpack-boilerplate

@@ -1,0 +1,19 @@
+.about {
+    background-color: $color-light-xl;
+
+    &__title {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    &__content {
+        width: 26.9rem;
+        margin-left: 7.5rem;
+    }
+
+    &__text {
+        &-p1 {
+            margin: 1.56rem 0;
+        }
+    }
+}

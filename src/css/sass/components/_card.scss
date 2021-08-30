@@ -1,0 +1,13 @@
+.card {
+    height: 27.2rem;
+    background-color: $color-light-s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    &__name {
+        @include font ('Georgia', 1.25rem);
+        color: $color-dark-l;
+    }
+}

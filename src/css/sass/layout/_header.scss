@@ -1,0 +1,14 @@
+.header {
+  overflow: hidden;
+  background: url(../img/start-screen-background.jpg) center/cover no-repeat;
+
+  &__container {
+    padding: 60px 40px 0;
+  }
+
+  &__nav {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,36 @@
+.btn {
+    padding: 0.9rem 2.8rem;
+    border-radius: 100px;
+    border-style: none;
+    @include font('Georgia', 1.06rem);
+    color: $color-dark-3xl;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+
+    &-primary {
+        background-color: $color-primary-light;
+
+        &:hover {
+            background-color: $color-primary;
+        }
+    }
+
+    &-secondary {
+        background-color: $color-light-s;
+        border: 2px solid $color-primary;
+
+        &:hover {
+            background-color: $color-primary;
+        }
+    }
+
+    &-arrow {
+        align-self: center;
+        padding: 1rem 1.25rem;
+        border-radius: 100%;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
